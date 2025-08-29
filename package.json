@@ -1,0 +1,48 @@
+{
+  "name": "hampshire-hoa-website",
+  "version": "1.0.0",
+  "description": "Modern, responsive front-end prototype for Hampshire HOA in Zionsville, Indiana",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . --live",
+    "build": "echo 'Static site - no build process needed'",
+    "test": "echo 'No tests specified'",
+    "lint:css": "npx stylelint css/**/*.css",
+    "lint:js": "npx eslint js/**/*.js",
+    "optimize": "npx imagemin assets/**/*.{jpg,png,gif} --out-dir=assets/optimized"
+  },
+  "keywords": [
+    "hampshire",
+    "hoa",
+    "zionsville",
+    "indiana",
+    "community",
+    "responsive",
+    "website",
+    "neighborhood"
+  ],
+  "author": "Hampshire HOA",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hampshire-hoa/website.git"
+  },
+  "homepage": "https://hampshirehoa.com",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "stylelint": "^15.11.0",
+    "eslint": "^8.55.0",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^7.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

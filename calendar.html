@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community Calendar - Hampshire HOA | Zionsville, Indiana</title>
+    <meta
+      name="description"
+      content="Stay updated with Hampshire HOA community events, board meetings, and important dates in Zionsville, Indiana."
+    />
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__brand">
+          <img
+            src="assets/Hampshire.gif"
+            alt="Hampshire HOA Logo"
+            class="nav__logo"
+          />
+          <div class="nav__brand-text">
+            <h1 class="nav__title">Hampshire</h1>
+            <p class="nav__subtitle">Zionsville, Indiana</p>
+          </div>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="calendar.html" class="nav__link active-link">Calendar</a>
+            </li>
+            <li class="nav__item">
+              <a href="covenants.html" class="nav__link">Covenants & Rules</a>
+            </li>
+            <li class="nav__item nav__dropdown">
+              <a href="acr.html" class="nav__link"
+                >ACR <i class="nav__dropdown-icon">▼</i></a
+              >
+              <ul class="nav__dropdown-menu">
+                <li>
+                  <a href="acr.html" class="nav__dropdown-link"
+                    >Architectural Change Requests</a
+                  >
+                </li>
+                <li>
+                  <a href="acr-faq.html" class="nav__dropdown-link">ACR FAQ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item nav__dropdown">
+              <a href="help.html" class="nav__link"
+                >Help <i class="nav__dropdown-icon">▼</i></a
+              >
+              <ul class="nav__dropdown-menu">
+                <li>
+                  <a href="contact.html" class="nav__dropdown-link"
+                    >Contact the Board</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://townsq.io/"
+                    class="nav__dropdown-link"
+                    target="_blank"
+                    >Report Neighborhood Issue</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="contact.html#website-issue"
+                    class="nav__dropdown-link"
+                    >Report Website Issue</a
+                  >
+                </li>
+                <li>
+                  <a href="townsq.html" class="nav__dropdown-link"
+                    >Join TownSq</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="nav__close-icon">✕</i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Calendar Section -->
+      <section
+        class="calendar section"
+        style="padding-top: calc(80px + var(--space-20))"
+      >
+        <div class="calendar__container container">
+          <div class="section__header" data-aos="fade-up">
+            <h1 class="section__title">Community Calendar</h1>
+            <p class="section__subtitle">
+              Stay updated with Hampshire HOA events, meetings, and important
+              dates
+            </p>
+          </div>
+
+          <div
+            class="calendar__content"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="calendar__notice">
+              <h2 class="calendar__notice-title">
+                📅 Current Events & Meetings
+              </h2>
+              <p class="calendar__notice-text">
+                For the most current calendar of events, meeting schedules, and
+                community activities, please visit our TownSq community portal
+                or contact the board directly. All residents are encouraged to
+                participate in community events and board meetings.
+              </p>
+
+              <div
+                class="calendar__upcoming"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3 class="calendar__section-title">Typical Annual Events</h3>
+                <div class="calendar__events">
+                  <div class="calendar__event">
+                    <div class="calendar__event-date">Spring</div>
+                    <div class="calendar__event-details">
+                      <h4 class="calendar__event-title">
+                        Pool Opening & Spring Cleanup
+                      </h4>
+                      <p class="calendar__event-description">
+                        Community pool opens for the season, spring maintenance
+                        activities
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="calendar__event">
+                    <div class="calendar__event-date">Summer</div>
+                    <div class="calendar__event-details">
+                      <h4 class="calendar__event-title">
+                        Community Pool Events
+                      </h4>
+                      <p class="calendar__event-description">
+                        Family swim nights, pool parties, and summer activities
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="calendar__event">
+                    <div class="calendar__event-date">Fall</div>
+                    <div class="calendar__event-details">
+                      <h4 class="calendar__event-title">
+                        Annual Meeting & Elections
+                      </h4>
+                      <p class="calendar__event-description">
+                        HOA annual meeting, board elections, and community
+                        updates
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="calendar__event">
+                    <div class="calendar__event-date">Monthly</div>
+                    <div class="calendar__event-details">
+                      <h4 class="calendar__event-title">Board Meetings</h4>
+                      <p class="calendar__event-description">
+                        Regular HOA board meetings (dates vary by month)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="calendar__buttons">
+                <a
+                  href="https://townsq.io/"
+                  target="_blank"
+                  class="btn btn--primary"
+                  >View Full Calendar on TownSq</a
+                >
+                <a href="contact.html" class="btn btn--secondary"
+                  >Contact Board for Details</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="calendar__info" data-aos="fade-up" data-aos-delay="300">
+            <div class="calendar__info-grid">
+              <div class="calendar__info-card">
+                <div class="calendar__info-icon">🏛️</div>
+                <h3 class="calendar__info-title">Board Meetings</h3>
+                <p class="calendar__info-text">
+                  Regular board meetings are held monthly. All residents are
+                  welcome to attend. Meeting dates, times, and agendas are
+                  posted on TownSq and via community notifications.
+                </p>
+              </div>
+
+              <div class="calendar__info-card">
+                <div class="calendar__info-icon">🎉</div>
+                <h3 class="calendar__info-title">Community Events</h3>
+                <p class="calendar__info-text">
+                  Throughout the year, Hampshire hosts various community events
+                  including pool parties, holiday celebrations, and neighborhood
+                  gatherings to bring residents together.
+                </p>
+              </div>
+
+              <div class="calendar__info-card">
+                <div class="calendar__info-icon">🔧</div>
+                <h3 class="calendar__info-title">Maintenance Schedule</h3>
+                <p class="calendar__info-text">
+                  Regular maintenance of common areas, pool, trails, and
+                  facilities is scheduled throughout the year. Residents are
+                  notified in advance of any disruptions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__content">
+          <div class="footer__section">
+            <div class="footer__brand">
+              <img
+                src="assets/Hampshire.gif"
+                alt="Hampshire HOA Logo"
+                class="footer__logo"
+              />
+              <h3 class="footer__title">Hampshire</h3>
+              <p class="footer__subtitle">Zionsville, Indiana</p>
+            </div>
+            <p class="footer__description">
+              A premier neighborhood community offering 250+ homes in a
+              park-like setting with exceptional amenities and top-rated
+              schools.
+            </p>
+          </div>
+
+          <div class="footer__section">
+            <h4 class="footer__section-title">Quick Links</h4>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="index.html" class="footer__link">Home</a>
+              </li>
+              <li class="footer__item">
+                <a href="calendar.html" class="footer__link">Calendar</a>
+              </li>
+              <li class="footer__item">
+                <a href="covenants.html" class="footer__link"
+                  >Covenants & Rules</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="acr.html" class="footer__link">ACR</a>
+              </li>
+              <li class="footer__item">
+                <a href="contact.html" class="footer__link">Contact Board</a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://townsq.io/"
+                  target="_blank"
+                  class="footer__link"
+                  >TownSq</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__section">
+            <h4 class="footer__section-title">Location</h4>
+            <div class="footer__info">
+              <p class="footer__text">Zionsville, Indiana</p>
+              <p class="footer__text">39.97058 N | 86.31507 W</p>
+              <a
+                href="https://maps.app.goo.gl/nGzouraFh9S9jnvY8"
+                target="_blank"
+                class="footer__link"
+                >View on Map</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="footer__copyright">
+            <p>&copy; 2025 Hampshire HOA, Inc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+      <i class="scroll-top__icon">↑</i>
+    </button>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/scripts.js"></script>
+
+    <style>
+      .calendar__events {
+        display: grid;
+        gap: var(--space-6);
+        margin-top: var(--space-6);
+      }
+
+      .calendar__event {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: var(--space-4);
+        padding: var(--space-4);
+        background-color: var(--gray-50);
+        border-radius: var(--radius-lg);
+        align-items: center;
+      }
+
+      .calendar__event-date {
+        font-weight: var(--fw-semibold);
+        color: var(--primary-color);
+        text-align: center;
+        padding: var(--space-2);
+        background-color: var(--white);
+        border-radius: var(--radius-md);
+        font-size: var(--fs-sm);
+      }
+
+      .calendar__event-title {
+        font-size: var(--fs-lg);
+        font-weight: var(--fw-semibold);
+        color: var(--primary-color);
+        margin-bottom: var(--space-1);
+      }
+
+      .calendar__event-description {
+        color: var(--gray-600);
+        font-size: var(--fs-sm);
+      }
+
+      .calendar__section-title {
+        font-size: var(--fs-xl);
+        font-weight: var(--fw-semibold);
+        color: var(--primary-color);
+        margin-bottom: var(--space-4);
+        text-align: center;
+      }
+
+      .calendar__info-grid {
+        display: grid;
+        gap: var(--space-6);
+        margin-top: var(--space-8);
+      }
+
+      .calendar__info-card {
+        background-color: var(--white);
+        padding: var(--space-6);
+        border-radius: var(--radius-xl);
+        text-align: center;
+        box-shadow: var(--shadow-md);
+      }
+
+      .calendar__info-icon {
+        font-size: var(--fs-4xl);
+        margin-bottom: var(--space-4);
+        display: block;
+      }
+
+      .calendar__info-title {
+        font-size: var(--fs-xl);
+        font-weight: var(--fw-semibold);
+        color: var(--primary-color);
+        margin-bottom: var(--space-3);
+      }
+
+      .calendar__info-text {
+        color: var(--gray-600);
+        line-height: var(--lh-relaxed);
+      }
+
+      @media (min-width: 768px) {
+        .calendar__event {
+          grid-template-columns: 120px 1fr;
+        }
+
+        .calendar__info-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    </style>
+  </body>
+</html>

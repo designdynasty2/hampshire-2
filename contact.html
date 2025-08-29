@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact the Board - Hampshire HOA | Zionsville, Indiana</title>
+    <meta
+      name="description"
+      content="Contact the Hampshire HOA board in Zionsville, Indiana. Get in touch for questions, concerns, or community matters."
+    />
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__brand">
+          <img
+            src="assets/Hampshire.gif"
+            alt="Hampshire HOA Logo"
+            class="nav__logo"
+          />
+          <div class="nav__brand-text">
+            <h1 class="nav__title">Hampshire</h1>
+            <p class="nav__subtitle">Zionsville, Indiana</p>
+          </div>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="calendar.html" class="nav__link">Calendar</a>
+            </li>
+            <li class="nav__item">
+              <a href="covenants.html" class="nav__link">Covenants & Rules</a>
+            </li>
+            <li class="nav__item nav__dropdown">
+              <a href="acr.html" class="nav__link"
+                >ACR <i class="nav__dropdown-icon">▼</i></a
+              >
+              <ul class="nav__dropdown-menu">
+                <li>
+                  <a href="acr.html" class="nav__dropdown-link"
+                    >Architectural Change Requests</a
+                  >
+                </li>
+                <li>
+                  <a href="acr-faq.html" class="nav__dropdown-link">ACR FAQ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item nav__dropdown">
+              <a href="help.html" class="nav__link"
+                >Help <i class="nav__dropdown-icon">▼</i></a
+              >
+              <ul class="nav__dropdown-menu">
+                <li>
+                  <a href="contact.html" class="nav__dropdown-link active-link"
+                    >Contact the Board</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://townsq.io/"
+                    class="nav__dropdown-link"
+                    target="_blank"
+                    >Report Neighborhood Issue</a
+                  >
+                </li>
+                <li>
+                  <a href="#website-issue" class="nav__dropdown-link"
+                    >Report Website Issue</a
+                  >
+                </li>
+                <li>
+                  <a href="townsq.html" class="nav__dropdown-link"
+                    >Join TownSq</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="nav__close-icon">✕</i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Contact Section -->
+      <section
+        class="contact section"
+        style="padding-top: calc(80px + var(--space-20))"
+      >
+        <div class="contact__container container">
+          <div class="section__header" data-aos="fade-up">
+            <h1 class="section__title">Contact the Board</h1>
+            <p class="section__subtitle">
+              Get in touch with the Hampshire HOA board for questions, concerns,
+              or community matters
+            </p>
+          </div>
+
+          <div class="contact__content" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact__info">
+              <div class="contact__method">
+                <div class="contact__icon">📧</div>
+                <h3 class="contact__method-title">Email</h3>
+                <p class="contact__method-text">board@hampshirehoa.com</p>
+                <p class="contact__method-note">
+                  Primary method for non-urgent matters
+                </p>
+              </div>
+
+              <div class="contact__method">
+                <div class="contact__icon">📮</div>
+                <h3 class="contact__method-title">Mailing Address</h3>
+                <p class="contact__method-text">
+                  Hampshire HOA<br />
+                  P.O. Box 123<br />
+                  Zionsville, IN 46077
+                </p>
+              </div>
+
+              <div class="contact__method">
+                <div class="contact__icon">🕒</div>
+                <h3 class="contact__method-title">Response Time</h3>
+                <p class="contact__method-text">
+                  We typically respond within 48 hours
+                </p>
+                <p class="contact__method-note">
+                  Urgent matters may receive faster response
+                </p>
+              </div>
+
+              <div class="contact__method">
+                <div class="contact__icon">🏛️</div>
+                <h3 class="contact__method-title">Board Meetings</h3>
+                <p class="contact__method-text">
+                  Monthly meetings open to all residents
+                </p>
+                <p class="contact__method-note">
+                  Check calendar for dates and times
+                </p>
+              </div>
+            </div>
+
+            <div class="contact__form">
+              <h2 class="contact__form-title">Send us a Message</h2>
+              <form class="form" id="contact-form">
+                <div class="form__row">
+                  <div class="form__group">
+                    <label for="name" class="form__label">Full Name *</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form__input"
+                      required
+                    />
+                  </div>
+
+                  <div class="form__group">
+                    <label for="email" class="form__label"
+                      >Email Address *</label
+                    >
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="form__input"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form__row">
+                  <div class="form__group">
+                    <label for="phone" class="form__label">Phone Number</label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      class="form__input"
+                    />
+                  </div>
+
+                  <div class="form__group">
+                    <label for="address" class="form__label"
+                      >Hampshire Address</label
+                    >
+                    <input
+                      type="text"
+                      id="address"
+                      name="address"
+                      class="form__input"
+                      placeholder="123 Hampshire Dr"
+                    />
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <label for="subject" class="form__label">Subject *</label>
+                  <select
+                    id="subject"
+                    name="subject"
+                    class="form__input"
+                    required
+                  >
+                    <option value="">Select a topic</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="acr">Architectural Change Request</option>
+                    <option value="maintenance">Maintenance Issue</option>
+                    <option value="covenants">Covenants Question</option>
+                    <option value="amenities">Amenities/Pool</option>
+                    <option value="financial">Financial/Dues</option>
+                    <option value="violation">Violation Appeal</option>
+                    <option value="board">Board Meeting/Governance</option>
+                    <option value="website">Website Issue</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div class="form__group">
+                  <label for="priority" class="form__label"
+                    >Priority Level</label
+                  >
+                  <select id="priority" name="priority" class="form__input">
+                    <option value="normal">Normal</option>
+                    <option value="urgent">Urgent</option>
+                    <option value="emergency">Emergency</option>
+                  </select>
+                  <small class="form__help"
+                    >For true emergencies, please call local authorities
+                    first</small
+                  >
+                </div>
+
+                <div class="form__group">
+                  <label for="message" class="form__label">Message *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form__input form__textarea"
+                    rows="6"
+                    required
+                    placeholder="Please provide details about your inquiry..."
+                  ></textarea>
+                </div>
+
+                <div class="form__group">
+                  <label class="form__checkbox">
+                    <input type="checkbox" name="resident" id="resident" />
+                    <span class="form__checkmark"></span>
+                    I am a current Hampshire resident
+                  </label>
+                </div>
+
+                <button type="submit" class="btn btn--primary form__submit">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Website Issue Section -->
+          <div
+            class="contact__website-issue"
+            id="website-issue"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="website-issue__card">
+              <div class="website-issue__icon">🌐</div>
+              <h2 class="website-issue__title">Report Website Issue</h2>
+              <p class="website-issue__text">
+                Found a problem with this website? Help us improve by reporting
+                any issues you encounter.
+              </p>
+              <div class="website-issue__examples">
+                <h4 class="website-issue__examples-title">
+                  Common issues to report:
+                </h4>
+                <ul class="website-issue__examples-list">
+                  <li>Broken links or missing pages</li>
+                  <li>Outdated information or content</li>
+                  <li>Mobile display problems</li>
+                  <li>Accessibility concerns</li>
+                  <li>Form submission errors</li>
+                </ul>
+              </div>
+              <p class="website-issue__note">
+                When reporting website issues, please include your device type,
+                browser, and a description of the problem.
+              </p>
+            </div>
+          </div>
+
+          <!-- Emergency Contact -->
+          <div
+            class="contact__emergency"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="emergency__card">
+              <div class="emergency__icon">🚨</div>
+              <h2 class="emergency__title">Emergency Situations</h2>
+              <p class="emergency__text">
+                For true emergencies requiring immediate attention, please
+                contact local authorities first:
+              </p>
+              <div class="emergency__contacts">
+                <div class="emergency__contact">
+                  <strong>Emergency Services:</strong> 911
+                </div>
+                <div class="emergency__contact">
+                  <strong>Zionsville Police:</strong> (317) 873-5967
+                </div>
+                <div class="emergency__contact">
+                  <strong>Non-Emergency Fire:</strong> (317) 873-4444
+                </div>
+              </div>
+              <p class="emergency__note">
+                After contacting authorities for emergencies, you may also
+                notify the HOA board for community-related follow-up.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__content">
+          <div class="footer__section">
+            <div class="footer__brand">
+              <img
+                src="assets/Hampshire.gif"
+                alt="Hampshire HOA Logo"
+                class="footer__logo"
+              />
+              <h3 class="footer__title">Hampshire</h3>
+              <p class="footer__subtitle">Zionsville, Indiana</p>
+            </div>
+            <p class="footer__description">
+              A premier neighborhood community offering 250+ homes in a
+              park-like setting with exceptional amenities and top-rated
+              schools.
+            </p>
+          </div>
+
+          <div class="footer__section">
+            <h4 class="footer__section-title">Quick Links</h4>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="index.html" class="footer__link">Home</a>
+              </li>
+              <li class="footer__item">
+                <a href="calendar.html" class="footer__link">Calendar</a>
+              </li>
+              <li class="footer__item">
+                <a href="covenants.html" class="footer__link"
+                  >Covenants & Rules</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="acr.html" class="footer__link">ACR</a>
+              </li>
+              <li class="footer__item">
+                <a href="contact.html" class="footer__link">Contact Board</a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://townsq.io/"
+                  target="_blank"
+                  class="footer__link"
+                  >TownSq</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__section">
+            <h4 class="footer__section-title">Location</h4>
+            <div class="footer__info">
+              <p class="footer__text">Zionsville, Indiana</p>
+              <p class="footer__text">39.97058 N | 86.31507 W</p>
+              <a
+                href="https://maps.app.goo.gl/nGzouraFh9S9jnvY8"
+                target="_blank"
+                class="footer__link"
+                >View on Map</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="footer__copyright">
+            <p>&copy; 2025 Hampshire HOA, Inc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+      <i class="scroll-top__icon">↑</i>
+    </button>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/scripts.js"></script>
+
+    <style>
+      .contact__method-note {
+        font-size: var(--fs-sm);
+        color: var(--gray-500);
+        margin-top: var(--space-1);
+      }
+
+      .contact__form-title {
+        font-family: var(--font-display);
+        font-size: var(--fs-2xl);
+        font-weight: var(--fw-semibold);
+        color: var(--primary-color);
+        margin-bottom: var(--space-6);
+        text-align: center;
+      }
+
+      .form__row {
+        display: grid;
+        gap: var(--space-4);
+        grid-template-columns: 1fr;
+      }
+
+      .form__help {
+        font-size: var(--fs-xs);
+        color: var(--gray-500);
+        margin-top: var(--space-1);
+        display: block;
+      }
+
+      .form__checkbox {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+        cursor: pointer;
+        font-size: var(--fs-sm);
+      }
+
+      .form__checkbox input[type="checkbox"] {
+        width: auto;
+        margin: 0;
+      }
+
+      .contact__website-issue {
+        margin-top: var(--space-16);
+      }
+
+      .website-issue__card {
+        background-color: var(--gray-50);
+        padding: var(--space-8);
+        border-radius: var(--radius-xl);
+        text-align: center;
+      }
+
+      .website-issue__icon {
+        font-size: var(--fs-5xl);
+        margin-bottom: var(--space-4);
+        display: block;
+      }
+
+      .website-issue__title {
+        font-size: var(--fs-2xl);
+        font-weight: var(--fw-semibold);
+        color: var(--primary-color);
+        margin-bottom: var(--space-4);
+      }
+
+      .website-issue__text {
+        color: var(--gray-600);
+        line-height: var(--lh-relaxed);
+        margin-bottom: var(--space-6);
+      }
+
+      .website-issue__examples {
+        background-color: var(--white);
+        padding: var(--space-4);
+        border-radius: var(--radius-lg);
+        margin-bottom: var(--space-4);
+        text-align: left;
+      }
+
+      .website-issue__examples-title {
+        font-size: var(--fs-base);
+        font-weight: var(--fw-semibold);
+        color: var(--primary-color);
+        margin-bottom: var(--space-2);
+      }
+
+      .website-issue__examples-list {
+        list-style: disc;
+        padding-left: var(--space-4);
+        color: var(--gray-600);
+      }
+
+      .website-issue__examples-list li {
+        margin-bottom: var(--space-1);
+      }
+
+      .website-issue__note {
+        font-size: var(--fs-sm);
+        color: var(--gray-500);
+        font-style: italic;
+      }
+
+      .contact__emergency {
+        margin-top: var(--space-12);
+      }
+
+      .emergency__card {
+        background: linear-gradient(135deg, #fee2e2 0%, #fef2f2 100%);
+        border: 2px solid #fca5a5;
+        padding: var(--space-8);
+        border-radius: var(--radius-xl);
+        text-align: center;
+      }
+
+      .emergency__icon {
+        font-size: var(--fs-5xl);
+        margin-bottom: var(--space-4);
+        display: block;
+      }
+
+      .emergency__title {
+        font-size: var(--fs-2xl);
+        font-weight: var(--fw-semibold);
+        color: #dc2626;
+        margin-bottom: var(--space-4);
+      }
+
+      .emergency__text {
+        color: var(--gray-700);
+        line-height: var(--lh-relaxed);
+        margin-bottom: var(--space-6);
+      }
+
+      .emergency__contacts {
+        background-color: var(--white);
+        padding: var(--space-4);
+        border-radius: var(--radius-lg);
+        margin-bottom: var(--space-4);
+      }
+
+      .emergency__contact {
+        color: var(--gray-700);
+        margin-bottom: var(--space-2);
+        font-size: var(--fs-base);
+      }
+
+      .emergency__contact:last-child {
+        margin-bottom: 0;
+      }
+
+      .emergency__note {
+        font-size: var(--fs-sm);
+        color: var(--gray-600);
+        font-style: italic;
+      }
+
+      @media (min-width: 768px) {
+        .form__row {
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .website-issue__examples {
+          text-align: center;
+        }
+      }
+    </style>
+  </body>
+</html>
